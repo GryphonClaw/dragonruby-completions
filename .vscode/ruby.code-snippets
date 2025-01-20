@@ -50,4 +50,16 @@
     "body": ["{x: $x_position, y: $y_position, text: \"$text\", r: $red, g: $green, b: $blue, primitive_marker: :label}"],
     "description": "Adds a template for creating a simple label hash."
   },
+
+  "Color Hash": {
+    "prefix": [".make_color"],
+    "body": ["{r: $red, g: $green, b: $blue}"],
+    "description": "Adds a color hash template for making quick color hashes."
+  },
+  "Color Keys": {
+    "prefix": [".make_color_keys"],
+    "body": ["r: $red, g: $green, b: $blue"],
+    "description": "Adds color keys to an existing hash primitive, convenient for just adding r,g,b values."
+  },
+
 }
