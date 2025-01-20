@@ -1,0 +1,53 @@
+{
+  "Sprite Primitive Marker": {
+    "prefix": [".to_sprite"],
+    "body": [", primitive_marker: :sprite"],
+    "description": "Adds the primitive marker for a sprite."
+  },
+  "Solid Primitive Marker": {
+    "prefix": [".to_solid"],
+    "body": [", primitive_marker: :solid"],
+    "description": "Adds the primitive marker for a solid."
+  },
+  "Line Primitive Marker": {
+    "prefix": [".to_line"],
+    "body": [", primitive_marker: :line"],
+    "description": "Adds the primitive marker for a line."
+  },
+  "Border Primitive Marker": {
+    "prefix": [".to_border"],
+    "body": [", primitive_marker: :border"],
+    "description": "Adds the primitive marker for a border."
+  },
+  "Label Primitive Marker": {
+    "prefix": [".to_label"],
+    "body": [", primitive_marker: :label"],
+    "description": "Adds the primitive marker for a label."
+  },
+
+  "Sprite Hash": {
+    "prefix": [".make_sprite"],
+    "body": ["{x: $x_position, y: $y_position, w: $width, h: $hieght, path: \"$path_to_sprite\", primitive_marker: :sprite}"],
+    "description": "Adds a template for creating a simple sprite hash."
+  },
+  "Solid Hash": {
+    "prefix": [".make_solid"],
+    "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, r: $red, g: $green, b: $blue, primitive_marker: :solid}"],
+    "description": "Adds a template for creating a simple solid hash."
+  },
+  "Line Hash": {
+    "prefix": [".make_line"],
+    "body": ["{x: $x1, y: $y1, x2: $x2, y2: $y2, r: $red, g: $green, b: $blue, primitive_marker: :sprite}"],
+    "description": "Adds a template for creating a simple line hash."
+  },
+  "Border Hash": {
+    "prefix": [".make_border"],
+    "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, r: $red, g: $green, b: $blue, primitive_marker: :border}"],
+    "description": "Adds a template for creating a simple border hash."
+  },
+  "Label Hash": {
+    "prefix": [".make_label"],
+    "body": ["{x: $x_position, y: $y_position, \"$text\", r: $red, g: $green, b: $blue, primitive_marker: :label}"],
+    "description": "Adds a template for creating a simple label hash."
+  },
+}
