@@ -13,7 +13,7 @@ Then under the setting, you can selected to turn it on.
 
 ## What does this do?
 
-The file `ruby.code-completions` provides a small set of auto-completions for creating different hash primitives.
+The file `ruby.code-completions` provides a small set of auto-completions for creating different hash primitives and other convienence completions.
 
 ## Creating simple hashes
 
@@ -22,7 +22,7 @@ to create a simple sprite hash, use the following:
 
  which will create a hash with all the basic key/value pairs for a sprite, you can tab to each of the values for quick creation.
 
- `{x: x_position, y: y_position, w: width, h: hieght, path: "path_to_sprite", primitive_marker: :sprite}`
+ `{x: x_position, y: y_position, w: width, h: height, path: "path_to_sprite", primitive_marker: :sprite}`
 
  there are also the following `.make_` auto-completions available:
 
@@ -45,3 +45,12 @@ another set of auto-completions available are completions to just add the primit
  * `.to_solid`
  * `.to_border`
  * `.to_line`
+
+## Color keys and hashes
+
+You can also added a color hash using the following:
+
+* `.make_color`
+  Which adds the following to your code: `{r: $red, g: $green, b: $blue}`
+* `.make_color_keys`
+  Which adds the following to your code: `r: $red, g: $green, $blue`, it's convenient for adding to an existing hash, usually an output primitive.
