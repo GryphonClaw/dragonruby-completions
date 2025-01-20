@@ -1,4 +1,4 @@
-# dragonruby-completions
+# dragonruby-completions for VSCode
 A set of Itellisense auto-completions (code snippets) for DragonRuby
 
 Add the `.vscode` folder to your project directory.
