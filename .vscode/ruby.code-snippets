@@ -47,7 +47,7 @@
   },
   "Label Hash": {
     "prefix": [".make_label"],
-    "body": ["{x: $x_position, y: $y_position, \"$text\", r: $red, g: $green, b: $blue, primitive_marker: :label}"],
+    "body": ["{x: $x_position, y: $y_position, text: \"$text\", r: $red, g: $green, b: $blue, primitive_marker: :label}"],
     "description": "Adds a template for creating a simple label hash."
   },
 }
