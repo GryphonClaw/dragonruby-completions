@@ -27,7 +27,7 @@
 
   "Sprite Hash": {
     "prefix": [".make_sprite"],
-    "body": ["{x: $x_position, y: $y_position, w: $width, h: $hieght, path: \"$path_to_sprite\", primitive_marker: :sprite}"],
+    "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, path: \"$path_to_sprite\", primitive_marker: :sprite}"],
     "description": "Adds a template for creating a simple sprite hash."
   },
   "Solid Hash": {
