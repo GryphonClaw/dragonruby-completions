@@ -53,4 +53,4 @@ You can also added a color hash using the following:
 * `.make_color`
   Which adds the following to your code: `{r: $red, g: $green, b: $blue}`
 * `.make_color_keys`
-  Which adds the following to your code: `r: $red, g: $green, $blue`, it's convenient for adding to an existing hash, usually an output primitive.
+  Which adds the following to your code: `r: $red, g: $green, b: $blue`, it's convenient for adding to an existing hash, usually an output primitive.
