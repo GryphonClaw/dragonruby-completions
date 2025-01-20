@@ -3,6 +3,16 @@ A set of Itellisense auto-completions (code snippets) for DragonRuby
 
 Add the `.vscode` folder to your project directory.
 
+You'll also need to enable code completion. Go to the VSCode Settings, search for `editor.tabCompletion` in the settings search bar.
+Then under the setting, you can selected to turn it on.
+ * on
+ * off (default)
+ * onlySnippets
+
+> Personally, I only turned it on for Code Snippets, and did it in the "user" profile section, so that it wouldn't follow me around project-to-project.
+
+## What does this do?
+
 The file `ruby.code-completions` provides a small set of auto-completions for creating different hash primitives.
 
 ## Creating simple hashes
