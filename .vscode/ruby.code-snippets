@@ -1,65 +1,83 @@
 {
   "Sprite Primitive Marker": {
+    "scope": "ruby",
     "prefix": [".to_sprite"],
     "body": [", primitive_marker: :sprite"],
     "description": "Adds the primitive marker for a sprite."
   },
   "Solid Primitive Marker": {
+    "scope": "ruby",
     "prefix": [".to_solid"],
     "body": [", primitive_marker: :solid"],
     "description": "Adds the primitive marker for a solid."
   },
   "Line Primitive Marker": {
+    "scope": "ruby",
     "prefix": [".to_line"],
     "body": [", primitive_marker: :line"],
     "description": "Adds the primitive marker for a line."
   },
   "Border Primitive Marker": {
+    "scope": "ruby",
     "prefix": [".to_border"],
     "body": [", primitive_marker: :border"],
     "description": "Adds the primitive marker for a border."
   },
   "Label Primitive Marker": {
+    "scope": "ruby",
     "prefix": [".to_label"],
     "body": [", primitive_marker: :label"],
     "description": "Adds the primitive marker for a label."
   },
 
   "Sprite Hash": {
+    "scope": "ruby",
     "prefix": [".make_sprite"],
     "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, path: \"$path_to_sprite\", primitive_marker: :sprite}"],
     "description": "Adds a template for creating a simple sprite hash."
   },
   "Solid Hash": {
+    "scope": "ruby",
     "prefix": [".make_solid"],
     "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, r: $red, g: $green, b: $blue, primitive_marker: :solid}"],
     "description": "Adds a template for creating a simple solid hash."
   },
   "Line Hash": {
+    "scope": "ruby",
     "prefix": [".make_line"],
     "body": ["{x: $x1, y: $y1, x2: $x2, y2: $y2, r: $red, g: $green, b: $blue, primitive_marker: :sprite}"],
     "description": "Adds a template for creating a simple line hash."
   },
   "Border Hash": {
+    "scope": "ruby",
     "prefix": [".make_border"],
     "body": ["{x: $x_position, y: $y_position, w: $width, h: $height, r: $red, g: $green, b: $blue, primitive_marker: :border}"],
     "description": "Adds a template for creating a simple border hash."
   },
   "Label Hash": {
+    "scope": "ruby",
     "prefix": [".make_label"],
     "body": ["{x: $x_position, y: $y_position, text: \"$text\", r: $red, g: $green, b: $blue, primitive_marker: :label}"],
     "description": "Adds a template for creating a simple label hash."
   },
 
   "Color Hash": {
+    "scope": "ruby",
     "prefix": [".make_color"],
     "body": ["{r: $red, g: $green, b: $blue}"],
     "description": "Adds a color hash template for making quick color hashes."
   },
   "Color Keys": {
+    "scope": "ruby",
     "prefix": [".make_color_keys"],
     "body": ["r: $red, g: $green, b: $blue"],
     "description": "Adds color keys to an existing hash primitive, convenient for just adding r,g,b values."
   },
 
+  "Render Target": {
+    "scope": "ruby",
+    "prefix": [".make_rt"],
+    "body": ["args.outputs[$target_name].w = $width\nargs.outputs[$target_name].h = $height"],
+    "description": "Creates a render target template."
+  }
 }
