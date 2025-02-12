@@ -54,3 +54,12 @@ You can also added a color hash using the following:
   Which adds the following to your code: `{r: $red, g: $green, b: $blue}`
 * `.make_color_keys`
   Which adds the following to your code: `r: $red, g: $green, b: $blue`, it's convenient for adding to an existing hash, usually an output primitive.
+
+## Other Hashes
+
+You can also added a point or rect hash using the following:
+
+* `.make_rect_hash`
+  Which adds the following to your code: `{x: $x, y: $y, w: $width, h: $height}`
+* `.make_point_hash`
+  Which adds the following to your code: `{x: $x, y: $y}`
