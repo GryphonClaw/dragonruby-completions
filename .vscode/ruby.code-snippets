@@ -79,5 +79,25 @@
     "prefix": [".make_rt"],
     "body": ["args.outputs[$target_name].w = $width\nargs.outputs[$target_name].h = $height"],
     "description": "Creates a render target template."
+  },
+
+  "Select Primitive Type": {
+    "scope": "ruby",
+    "prefix": [".make_primitive"],
+    "body": [", primitive_marker: :${1|sprite,label,solid,border,line|}"],
+    "description": "Allows you to select which primitive type you want to use."
+  },
+
+  "Make Rect Hash": {
+    "scope": "ruby",
+    "prefix": [".make_rect_hash"],
+    "body": ["{x: $x_position, y: $y_position, w: $width, h: $height}"],
+    "description": "Makes a rectangle hash with x, y, width and height."
+  },
+  "Make Point Hash": {
+    "scope": "ruby",
+    "prefix": [".make_point_hash"],
+    "body": ["{x: $x_position, y: $y_position}"],
+    "description": "Makes a point hash with x, y."
   }
 }
